@@ -10,7 +10,7 @@ import (
 	"pkg.world.dev/world-engine/cardinal/ecs/storage"
 )
 
-// AttackSystem is a system that inflict damage to player's HP based on `AttackPlayer` transactions.
+// AttackSyestem is a system that inflict damage to player's HP based on `AttackPlayer` transactions.
 // This provides a simple example of how to create a system that modifies the component of an entity.
 func AttackSystem(world *ecs.World, tq *ecs.TransactionQueue, _ *ecs.Logger) error {
 	// Get all the transactions that are of type CreatePlayer from the tx queue
